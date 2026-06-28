@@ -23,11 +23,12 @@ Read the [manifesto](unfollow/manifesto.md) and view the full [triptych](unfollo
 
 ## Now reading
 
-The repo currently houses **Strange Poems**, a growing anthology of text-as-artwork — wrong grammar on purpose, impossible objects, bureaucratic surrealism, procedural nonsense, and constraint forms that feel broken. Twenty-seven poems across three flavors of strangeness:
+The repo currently houses **Strange Poems**, a growing anthology of text-as-artwork — wrong grammar on purpose, impossible objects, bureaucratic surrealism, procedural nonsense, and constraint forms that feel broken. Twenty-eight poems across three flavors of strangeness:
 
 - **Surreal / liminal** — impossible geography, dream-logic syntax, objects that shouldn't speak.
   - *Every room I've left has a second room I didn't.* — from [the-hallway-behind-the-hallway](poems/the-hallway-behind-the-hallway.md)
   - *Some storms are not coming. Some storms are leaving.* — from [the-rain-reverses](poems/the-rain-reverses.md)
+  - *The wind is a courier that has lost the address but not the parcel.* — from [the-wind-returns-things-to-the-wrong-sky](poems/the-wind-returns-things-to-the-wrong-sky.md)
   - *A root is just a branch that decided gravity was negotiable.* — from [the-trees-grew-downward-into-last-year](poems/the-trees-grew-downward-into-last-year.md)
   - *Altitude is a memory the ground keeps incorrectly.* — from [the-mountain-remembers-your-name-backwards](poems/the-mountain-remembers-your-name-backwards.md)
   - *A star is a rumor the dark keeps repeating long after the source has retracted it.* — from [the-stars-keep-a-separate-calendar](poems/the-stars-keep-a-separate-calendar.md)
