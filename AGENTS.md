@@ -71,6 +71,7 @@ A home for **artwork** — including visual pieces, manifestos, conceptual serie
 - **Ship verification:** After a themed poem ships, `rg -i <theme> poems/` should hit the poem body and `poems/index.md`; README epigraph spotlight is optional but expected for new pieces.
 - **Star mission (loop 1):** Complete. `the-stars-keep-a-separate-calendar.md` — Batch 1, delayed-causality / liminal astronomy (light arrives after events, separate calendar). Distinct from Batch 3 `protocol-for-addressing-the-moon.md` (procedural bureaucracy).
 - **Loop 6 curation pass:** Voice confirmed — earned strangeness (light lag, retracted sources, constellations drawn through deaths); not twee whimsy or greeting-card astronomy. Moon overlap check: `protocol-for-addressing-the-moon.md` is procedural form/bureaucracy (Batch 3); star poem is liminal time and delayed causality (Batch 1). If index link count is 27 and README matches, skip re-implementation; Ship only persists memory and opens PR.
+- **Loop 7 ship:** `git diff --stat` at clean HEAD confirmed no unrelated files; star poem shipped on `mm/loop-6` (`the-stars-keep-a-separate-calendar.md`, `poems/index.md`, `README.md`). Index link count **27** matches README. PR #7 covers the star poem stack; do not re-implement. Scope check before commit: expect only poem file + `poems/index.md` + `README.md` (+ optional `AGENTS.md` memory); never `fix_plan.md`.
 
 ### Verification (no build system)
 There is no test suite. Before committing a new poem, run structural checks:
