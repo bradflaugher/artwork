@@ -73,7 +73,9 @@ A home for **artwork** — including visual pieces, manifestos, conceptual serie
 - **Rain mission (loop 1):** Complete (pre-existing). `the-rain-reverses.md` — Batch 1, inverted-weather surrealism (rain falls upward, storms leave instead of arrive). Shipped in bulk commit `5f832ad`; index-linked and README-spotlighted. Skip re-implementation on repeat missions.
 - **Thunder mission (loop 1):** Complete. `the-thunder-arrives-after-the-fact.md` — Batch 1, delayed-causality / bureaucratic weather surrealism (thunder files late after lightning). Pairs with `the-rain-reverses.md` and `the-wind-returns-things-to-the-wrong-sky.md` as a weather trilogy.
 - **Cloud mission (loop 1):** Complete. `the-cloud-files-a-complaint.md` — Batch 1, bureaucratic weather surrealism (cloud inspects the roof, cites ceilings, releases stamped copies of itself). Extends the weather trilogy with paperwork-as-precipitation.
+- **Cloud mission (loop 4):** Complete (skip guard). `the-cloud-files-a-complaint.md` already index-linked and README-spotlighted from commit `7c8fab5`; `grep -i cloud poems/` hits poem body and `poems/index.md`. Skip re-implementation on repeat missions.
 - **Rebase gotcha:** `mm/loop-1` on origin may be ahead of local `main`; rebase onto `origin/mm/loop-1` before push (never force-push). Resolve index/README conflicts by keeping all batch links and bumping poem count.
+- **Branch sync (loop 4):** `mm/loop-4` on origin may carry geography-trilogy commits (trees, mountain, tide) while local may carry weather-quartet commits (wind, thunder, rain, cloud). Before push, merge or rebase onto `origin/mm/loop-4`; resolve index/README/AGENTS conflicts by keeping **all** poem links and the highest accurate poem count.
 - **Middle-manager branches.** Loop work ships on `mm/loop-N` branches; commit message format: `middle-manager: <mission summary>` (≤72 chars).
 
 ### Verification (no build system)
