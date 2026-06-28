@@ -57,5 +57,17 @@ A home for **artwork** — including visual pieces, manifestos, conceptual serie
 2. Pick (or invent) a batch theme. Write poems that fit it.
 3. Create one `.md` file per poem under `poems/`, with title, body, and epigraph, following formatting conventions.
 4. Update `poems/index.md` with links to every new file.
-5. If the anthology warrants it, update `README.md`'s "Now reading" section.
+5. If the anthology warrants it, update `README.md`'s "Now reading" section — and bump the poem count there when it changes.
 6. Do not commit scratch files, build tooling, or unrelated refactors.
+
+### Loop notes (agent memory)
+- **No build or test suite.** Verification is manual curation: `# Title`, stanza body, trailing `> Epigraph:` or `> Gloss:` blockquote, curator filename, index link, anthology voice (strange, not twee).
+- **Poem count:** 27 poems as of loop 2 (Batch 1: 11, Batch 2: 8, Batch 3: 8). Bump the count in `README.md` "Now reading" when adding a poem; add one epigraph spotlight line for the new piece.
+- **Batch fit:** Geography and landscape themes (mountains, trees, weather, rooms) default to **Batch 1 — surreal / liminal** unless the piece is primarily a form, inventory, or procedure — then use Batch 2 or 3.
+- **Authoritative state:** `poems/index.md` is the anthology table of contents. Root-level planning files (e.g. `fix_plan.md`) may be stale; trust the index and working tree over out-of-date plans.
+- **Do not commit** iteration scratch files such as `fix_plan.md`.
+- **Loop iterations:** Before writing, grep `poems/index.md` and check recent commits — if the mission poem is already linked and spotlighted in `README.md`, skip re-implementation; Ship only persists memory and opens the PR.
+- **fix_plan.md workflow:** When all tasks are checked and no `- [ ]` lines remain, the middle-manager loop must append new actionable `- [ ] task` lines before execute/verify loops can proceed. A plan with only `[x]` items stalls the pipeline.
+- **Ship verification:** After a themed poem ships, `rg -i <theme> poems/` should hit the poem body and `poems/index.md`; README epigraph spotlight is optional but expected for new pieces.
+- **Mountain mission (loop 2):** Complete. `the-mountain-remembers-your-name-backwards.md` — Batch 1, bureaucratic surrealism (ledger, APPROVED stamp, inverted ascent). No second mountain piece unless the human requests it.
+- **Cloud mission (loop 2):** Complete. Adopted existing `a-cloud-mistaken-for-a-room.md` (uncommitted from a prior loop) — Batch 1, cloud-as-rented-room/architecture. Distinct from `the-rain-reverses.md` (rain/grief vs cloud-as-room). Before writing, grep for theme keywords and check for uncommitted poem files; a prior loop may have finished the poem without committing.

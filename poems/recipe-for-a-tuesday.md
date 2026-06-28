@@ -21,4 +21,6 @@
 
 6. Serves: one. Always one. Tuesdays are not a dish for sharing.
 
+7. Clean up the kitchen. Leave no evidence. Tomorrow will be Wednesday and the person who ate this Tuesday will deny it ever happened. You will need to deny it too.
+
 > Epigraph: *A recipe is a procedure that promises a meal. This one promises a day.*
