@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <title>the notification abyss — unfollow II</title>
+  <desc>A dark teal panel, deep as water at dusk. The familiar red notification badge swells as it descends — 9, 99, 999 — each heavier, until the numbers lose meaning and the badge becomes a falling glowing weight sinking into the dark. Beneath it the silhouette of a head, seen from above, tilts toward the light of the badge the way a face tilts toward a phone in a dark room.</desc>
+
+  <defs>
+    <!-- water at dusk: thin surface light into deep surveillance teal -->
+    <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#1B3A44"/>
+      <stop offset="0.12" stop-color="#14302F"/>
+      <stop offset="0.40" stop-color="#0C2226"/>
+      <stop offset="0.75" stop-color="#061418"/>
+      <stop offset="1"    stop-color="#020A0C"/>
+    </linearGradient>
+
+    <!-- the glow the badge throws, the only light that reaches the bottom -->
+    <radialGradient id="badgeGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0"   stop-color="#FF6B5E" stop-opacity="0.85"/>
+      <stop offset="0.35" stop-color="#FF3B30" stop-opacity="0.45"/>
+      <stop offset="1"   stop-color="#FF3B30" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- faint shaft of light from the surface, where the badge entered -->
+    <linearGradient id="shaft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#9FD3D0" stop-opacity="0.10"/>
+      <stop offset="1"   stop-color="#9FD3D0" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- the phone-shaped clip -->
+    <clipPath id="phone">
+      <rect x="0" y="0" width="1080" height="1920" rx="96" ry="96"/>
+    </clipPath>
+
+    <!-- the friendly rounded badge, camouflaged as concern -->
+    <symbol id="badge" viewBox="0 0 200 200">
+      <rect x="6" y="6" width="188" height="188" rx="94" ry="94" fill="#FF3B30"/>
+    </symbol>
+  </defs>
+
+  <g clip-path="url(#phone)">
+    <rect x="0" y="0" width="1080" height="1920" fill="url(#deep)"/>
+
+    <!-- the surface shaft: light from where the badge pierced the water -->
+    <rect x="430" y="0" width="220" height="1920" fill="url(#shaft)"/>
+
+    <!-- the descending badges: 9, 99, 999, ... the number swells, the meaning drains -->
+    <!-- 9 -->
+    <g opacity="0.95">
+      <circle cx="540" cy="210" r="120" fill="url(#badgeGlow)"/>
+      <use href="#badge" x="486" y="156" width="108" height="108"/>
+      <text x="540" y="246" text-anchor="middle"
+            font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+            font-size="58" font-weight="700" fill="#FFFFFF">9</text>
+    </g>
+
+    <!-- 99 -->
+    <g opacity="0.82">
+      <circle cx="540" cy="560" r="200" fill="url(#badgeGlow)"/>
+      <use href="#badge" x="450" y="470" width="180" height="180"/>
+      <text x="540" y="592" text-anchor="middle"
+            font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+            font-size="92" font-weight="700" fill="#FFFFFF">99</text>
+    </g>
+
+    <!-- 999: the last number that still tries to mean something -->
+    <g opacity="0.66">
+      <circle cx="540" cy="1000" r="300" fill="url(#badgeGlow)"/>
+      <use href="#badge" x="414" y="874" width="252" height="252"/>
+      <text x="540" y="1042" text-anchor="middle"
+            font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+            font-size="126" font-weight="700" fill="#FFFFFF">999</text>
+    </g>
+
+    <!-- past counting: the badge becomes pure weight, pure red, no number -->
+    <g opacity="0.46">
+      <circle cx="540" cy="1480" r="380" fill="url(#badgeGlow)"/>
+      <circle cx="540" cy="1480" r="170" fill="#FF3B30"/>
+    </g>
+
+    <!-- the last red that reaches the bottom. it reaches the bottom because it is meant to pull you down with it -->
+    <g opacity="0.22">
+      <circle cx="540" cy="1840" r="420" fill="url(#badgeGlow)"/>
+      <circle cx="540" cy="1840" r="120" fill="#FF3B30" opacity="0.7"/>
+    </g>
+
+    <!-- the silhouette of a head, seen from above, tilting up toward the badge the way a face tilts toward a phone in a dark room -->
+    <g transform="translate(540, 1640)">
+      <!-- shoulders -->
+      <path d="M -240 280
+               C -240 150, -150 90, 0 90
+               C 150 90, 240 150, 240 280
+               L 240 300 L -240 300 Z"
+            fill="#020A0C" opacity="0.92"/>
+      <!-- head, tilted slightly back, face toward the light above -->
+      <ellipse cx="0" cy="40" rx="120" ry="135" fill="#030D10" opacity="0.96"/>
+      <!-- the crown catching a thread of the badge's red -->
+      <path d="M -70 -70 C -40 -110, 40 -110, 70 -70 C 60 -60, 40 -54, 0 -54 C -40 -54, -60 -60, -70 -70 Z"
+            fill="#FF3B30" opacity="0.18"/>
+    </g>
+
+    <!-- caption in the work -->
+    <text x="540" y="1820" text-anchor="middle"
+          font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+          font-size="26" letter-spacing="3"
+          fill="#FFFFFF" fill-opacity="0.7">
+      it is a server, keeping you here
+    </text>
+  </g>
+
+  <!-- device rim -->
+  <rect x="2" y="2" width="1076" height="1916" rx="94" ry="94"
+        fill="none" stroke="#020A0C" stroke-opacity="0.5" stroke-width="4"/>
+</svg>
