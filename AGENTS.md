@@ -71,6 +71,7 @@ A home for **artwork** — including visual pieces, manifestos, conceptual serie
 - **Ship verification:** After a themed poem ships, `rg -i <theme> poems/` should hit the poem body and `poems/index.md`; README epigraph spotlight is optional but expected for new pieces.
 - **Star mission (loop 1):** Complete. `the-stars-keep-a-separate-calendar.md` — Batch 1, delayed-causality / liminal astronomy (light arrives after events, separate calendar). Distinct from Batch 3 `protocol-for-addressing-the-moon.md` (procedural bureaucracy).
 - **Loop 1 ship (iteration 1):** mm/loop-1 — structural/theme checks pass on `the-stars-keep-a-separate-calendar.md`; index link count **27** matches README; PR #3 open. Mission complete; skip re-implement. Never stage `fix_plan.md`.
+- **Loop 3 ship (iteration 3):** mm/loop-3 — verification passes on `the-stars-keep-a-separate-calendar.md` (`# Title`, `> Gloss:`, theme `grep -i star`); index link count **27** matches README; working tree clean at HEAD. Mission complete; skip re-implement. Never stage `fix_plan.md`.
 
 ### Verification (no build system)
 There is no test suite. Before committing a new poem, run structural checks:
