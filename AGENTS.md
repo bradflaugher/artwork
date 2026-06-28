@@ -59,3 +59,13 @@ A home for **artwork** — including visual pieces, manifestos, conceptual serie
 4. Update `poems/index.md` with links to every new file.
 5. If the anthology warrants it, update `README.md`'s "Now reading" section.
 6. Do not commit scratch files, build tooling, or unrelated refactors.
+
+### Batch placement (poems)
+- **Batch 1 — surreal / liminal**: impossible geography, dream-logic, speaking objects.
+- **Batch 2 — constraint / formal**: broken forms, bureaucratic verse, inventories.
+- **Batch 3 — absurd / procedural**: algorithms, loops, calibration, robots rehearsing human gestures, instructions that misfire.
+
+### Ship / loop notes
+- No build, test, or lint commands. Verify poem files manually: `#` title, body, trailing `> Epigraph:` or `> Gloss:` blockquote; link appended under the correct batch in `poems/index.md`.
+- Poem-only missions should touch only the new `poems/<kebab-case-title>.md` file and `poems/index.md` — not `README.md` unless the anthology manifesto warrants a "Now reading" update.
+- Commit subjects use the `middle-manager:` prefix; keep the subject line ≤ 72 characters.
