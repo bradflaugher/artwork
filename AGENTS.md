@@ -61,11 +61,12 @@ A home for **artwork** — including visual pieces, manifestos, conceptual serie
 6. Do not commit scratch files, build tooling, or unrelated refactors.
 
 ### Batch placement (poems)
-- **Batch 1 — surreal / liminal**: impossible geography, dream-logic, speaking objects.
-- **Batch 2 — constraint / formal**: broken forms, bureaucratic verse, inventories.
+- **Batch 1 — surreal / liminal**: impossible geography, dream-logic, speaking objects. Bureaucratic surrealism can land in Batch 1 when the image/scene carries the strangeness (e.g., fog/snow as clerk/audit).
+- **Batch 2 — constraint / formal**: broken forms, bureaucratic verse, inventories. Reserve Batch 2 for poems whose *form* is the constraint (sonnets, forms, inventories).
 - **Batch 3 — absurd / procedural**: algorithms, loops, calibration, robots rehearsing human gestures, instructions that misfire.
 
 ### Ship / loop notes
-- No build, test, or lint commands. Verify poem files manually: `#` title, body, trailing `> Epigraph:` or `> Gloss:` blockquote; link appended under the correct batch in `poems/index.md`.
-- Poem-only missions should touch only the new `poems/<kebab-case-title>.md` file and `poems/index.md` — not `README.md` unless the anthology manifesto warrants a "Now reading" update.
-- Commit subjects use the `middle-manager:` prefix; keep the subject line ≤ 72 characters.
+- **No build, test, or lint commands.** Verification is curatorial: title heading (`#`), epigraph/gloss blockquote at file end (e.g. `> Epigraph:` or `> Gloss:`), `kebab-case-title.md` filename, link in the correct `poems/index.md` batch, and README count in sync.
+- **README counts:** When adding a poem, bump the total count in `README.md`'s "Now reading" section.
+- **Issue-driven branches:** Use `mm/issue-N` for scoped anthology work. Link the PR to the issue with `gh pr create` / `Closes #N` or `Fixes #N` when appropriate.
+- **Commit guidelines:** Commit subjects use the `middle-manager:` prefix; keep the subject line ≤ 72 characters.

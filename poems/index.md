@@ -34,6 +34,16 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [the-bus-stop-inside-the-bus.md](the-bus-stop-inside-the-bus.md)
 - [what-the-elevator-remembers.md](what-the-elevator-remembers.md)
 - [the-town-with-no-tuesdays.md](the-town-with-no-tuesdays.md)
+- [the-fog-files-its-report.md](the-fog-files-its-report.md)
+- [the-census-of-snow.md](the-census-of-snow.md)
+- [the-trees-grew-downward-into-last-year.md](the-trees-grew-downward-into-last-year.md)
+- [the-mountain-remembers-your-name-backwards.md](the-mountain-remembers-your-name-backwards.md)
+- [the-stars-keep-a-separate-calendar.md](the-stars-keep-a-separate-calendar.md)
+- [a-cloud-mistaken-for-a-room.md](a-cloud-mistaken-for-a-room.md)
+- [the-cloud-files-a-complaint.md](the-cloud-files-a-complaint.md)
+- [the-thunder-arrives-after-the-fact.md](the-thunder-arrives-after-the-fact.md)
+- [the-wind-returns-things-to-the-wrong-sky.md](the-wind-returns-things-to-the-wrong-sky.md)
+- [the-tide-submits-a-correction.md](the-tide-submits-a-correction.md)
 
 ### Batch 2 — constraint / formal
 - [sonnet-with-all-its-windows-broken.md](sonnet-with-all-its-windows-broken.md)
@@ -55,6 +65,7 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [flowchart-of-a-quiet-life.md](flowchart-of-a-quiet-life.md)
 - [protocol-for-addressing-the-moon.md](protocol-for-addressing-the-moon.md)
 - [the-android-rehearses-a-wave.md](the-android-rehearses-a-wave.md)
+- [how-to-reboot-a-shadow.md](how-to-reboot-a-shadow.md)
 
 ---
 
