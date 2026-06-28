@@ -57,5 +57,9 @@ A home for **artwork** — including visual pieces, manifestos, conceptual serie
 2. Pick (or invent) a batch theme. Write poems that fit it.
 3. Create one `.md` file per poem under `poems/`, with title, body, and epigraph, following formatting conventions.
 4. Update `poems/index.md` with links to every new file.
-5. If the anthology warrants it, update `README.md`'s "Now reading" section.
+5. If the anthology warrants it, update `README.md`'s "Now reading" section — increment the poem count and, when a new piece is representative, add its epigraph under the matching batch bullet.
 6. Do not commit scratch files, build tooling, or unrelated refactors.
+
+### Ship notes
+- No build, test, or lint commands. Verification is curatorial: title heading, epigraph blockquote at file end, `kebab-case-title.md` filename, link in `poems/index.md`, and README count in sync.
+- Issue-driven work uses branches like `mm/issue-N`. Link the PR to the issue with `gh pr create` / `Closes #N` when appropriate.
