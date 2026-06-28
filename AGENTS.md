@@ -70,6 +70,7 @@ A home for **artwork** — including visual pieces, manifestos, conceptual serie
 - **fix_plan.md workflow:** When all tasks are checked and no `- [ ]` lines remain, the middle-manager loop must append new actionable `- [ ] task` lines before execute/verify loops can proceed. A plan with only `[x]` items stalls the pipeline.
 - **Ship verification:** After a themed poem ships, `rg -i <theme> poems/` should hit the poem body and `poems/index.md`; README epigraph spotlight is optional but expected for new pieces.
 - **Star mission (loop 1):** Complete. `the-stars-keep-a-separate-calendar.md` — Batch 1, delayed-causality / liminal astronomy (light arrives after events, separate calendar). Distinct from Batch 3 `protocol-for-addressing-the-moon.md` (procedural bureaucracy).
+- **Loop 6 curation pass:** Voice confirmed — earned strangeness (light lag, retracted sources, constellations drawn through deaths); not twee whimsy or greeting-card astronomy. Moon overlap check: `protocol-for-addressing-the-moon.md` is procedural form/bureaucracy (Batch 3); star poem is liminal time and delayed causality (Batch 1). If index link count is 27 and README matches, skip re-implementation; Ship only persists memory and opens PR.
 
 ### Verification (no build system)
 There is no test suite. Before committing a new poem, run structural checks:
