@@ -64,3 +64,4 @@ A home for **artwork** — including visual pieces, manifestos, conceptual serie
 - **No build or test suite.** A poem contribution is verified by manual curation review: title, body, epigraph blockquote, curator filename, index link, and anthology voice (strange, not twee).
 - **Batch defaults:** Nature or landscape subjects that need inverted logic (roots in attics, gravity reversed) fit **Batch 1 — surreal / liminal**. Bureaucratic tree paperwork fits Batch 2; procedural tree instructions fit Batch 3.
 - **Do not commit** iteration scratch files such as `fix_plan.md`.
+- **Loop iterations:** Before writing, grep `poems/index.md` and check recent commits — if the mission poem is already linked and spotlighted in `README.md`, skip re-implementation; Ship only persists memory and opens the PR.
