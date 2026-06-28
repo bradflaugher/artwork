@@ -36,6 +36,7 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [the-town-with-no-tuesdays.md](the-town-with-no-tuesdays.md)
 - [the-trees-grew-downward-into-last-year.md](the-trees-grew-downward-into-last-year.md)
 - [the-mountain-remembers-your-name-backwards.md](the-mountain-remembers-your-name-backwards.md)
+- [the-stars-keep-a-separate-calendar.md](the-stars-keep-a-separate-calendar.md)
 
 ### Batch 2 — constraint / formal
 - [sonnet-with-all-its-windows-broken.md](sonnet-with-all-its-windows-broken.md)

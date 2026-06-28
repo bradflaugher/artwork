@@ -23,13 +23,14 @@ Read the [manifesto](unfollow/manifesto.md) and view the full [triptych](unfollo
 
 ## Now reading
 
-The repo currently houses **Strange Poems**, a growing anthology of text-as-artwork — wrong grammar on purpose, impossible objects, bureaucratic surrealism, procedural nonsense, and constraint forms that feel broken. Twenty-six poems across three flavors of strangeness:
+The repo currently houses **Strange Poems**, a growing anthology of text-as-artwork — wrong grammar on purpose, impossible objects, bureaucratic surrealism, procedural nonsense, and constraint forms that feel broken. Twenty-seven poems across three flavors of strangeness:
 
 - **Surreal / liminal** — impossible geography, dream-logic syntax, objects that shouldn't speak.
   - *Every room I've left has a second room I didn't.* — from [the-hallway-behind-the-hallway](poems/the-hallway-behind-the-hallway.md)
   - *Some storms are not coming. Some storms are leaving.* — from [the-rain-reverses](poems/the-rain-reverses.md)
   - *A root is just a branch that decided gravity was negotiable.* — from [the-trees-grew-downward-into-last-year](poems/the-trees-grew-downward-into-last-year.md)
   - *Altitude is a memory the ground keeps incorrectly.* — from [the-mountain-remembers-your-name-backwards](poems/the-mountain-remembers-your-name-backwards.md)
+  - *A star is a rumor the dark keeps repeating long after the source has retracted it.* — from [the-stars-keep-a-separate-calendar](poems/the-stars-keep-a-separate-calendar.md)
 
 - **Constraint / formal** — broken sonnets, bureaucratic forms as verse, numbered inventories, legalistic odes.
   - *A feeling is a form you fill out about yourself, to yourself, in a font you did not choose.* — from [form-7b-notice-of-feeling](poems/form-7b-notice-of-feeling.md)
