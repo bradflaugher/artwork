@@ -57,6 +57,7 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [the-queue-that-was-also-a-poem.md](the-queue-that-was-also-a-poem.md)
 - [flowchart-of-a-quiet-life.md](flowchart-of-a-quiet-life.md)
 - [protocol-for-addressing-the-moon.md](protocol-for-addressing-the-moon.md)
+- [how-to-reboot-a-shadow.md](how-to-reboot-a-shadow.md)
 
 ---
 
