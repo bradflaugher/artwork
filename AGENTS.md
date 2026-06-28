@@ -60,8 +60,10 @@ A home for **artwork** — including visual pieces, manifestos, conceptual serie
 5. If the anthology warrants it, update `README.md`'s "Now reading" section — and bump the poem count there when it changes.
 6. Do not commit scratch files, build tooling, or unrelated refactors.
 
-### Verification & shipping
-- **No build or test suite.** A poem contribution is verified by manual curation review: title, body, epigraph blockquote, curator filename, index link, and anthology voice (strange, not twee).
-- **Batch defaults:** Nature or landscape subjects that need inverted logic (roots in attics, gravity reversed) fit **Batch 1 — surreal / liminal**. Bureaucratic tree paperwork fits Batch 2; procedural tree instructions fit Batch 3.
+### Loop notes (agent memory)
+- **No build or test suite.** Verification is manual curation: `# Title`, stanza body, trailing `> Epigraph:` or `> Gloss:` blockquote, curator filename, index link, anthology voice (strange, not twee).
+- **Poem count:** 26 poems as of loop 1 (Batch 1: 10, Batch 2: 8, Batch 3: 8). Bump the count in `README.md` "Now reading" when adding a poem; add one epigraph spotlight line for the new piece.
+- **Batch fit:** Geography and landscape themes (mountains, trees, weather, rooms) default to **Batch 1 — surreal / liminal** unless the piece is primarily a form, inventory, or procedure — then use Batch 2 or 3.
+- **Authoritative state:** `poems/index.md` is the anthology table of contents. Root-level planning files (e.g. `fix_plan.md`) may be stale; trust the index and working tree over out-of-date plans.
 - **Do not commit** iteration scratch files such as `fix_plan.md`.
 - **Loop iterations:** Before writing, grep `poems/index.md` and check recent commits — if the mission poem is already linked and spotlighted in `README.md`, skip re-implementation; Ship only persists memory and opens the PR.
