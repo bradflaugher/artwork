@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <title>the ghost engagement — unfollow III</title>
+  <desc>A near-white panel, the color of a screen at 3 a.m. with the brightness dropped. A single large engagement counter at center — a heart, the number 247, a thin underline — the grammar of "you matter, you are seen." Around it, faint ghosted echoes of the same counter drift and fade, each a prior version of the self the platform measured, used, and discarded. No faces, no names — just the residue of attention, already cooling. A single dying red pixel marks the last trace of the machine that once cared, mechanically, whether you existed.</desc>
+
+  <defs>
+    <!-- 3 a.m. screen: not pure white, the faint blue cast of a dimmed display in a dark room -->
+    <linearGradient id="dim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#EDEEF1"/>
+      <stop offset="0.5" stop-color="#E4E6EB"/>
+      <stop offset="1"   stop-color="#D8DAE0"/>
+    </linearGradient>
+
+    <!-- a barely-there radial so the center counter reads as the only thing that still has weight -->
+    <radialGradient id="focus" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0"   stop-color="#FFFFFF" stop-opacity="0.0"/>
+      <stop offset="0.7" stop-color="#FFFFFF" stop-opacity="0.0"/>
+      <stop offset="1"   stop-color="#9AA0AE" stop-opacity="0.18"/>
+    </radialGradient>
+
+    <!-- the heart: the friendly rounded glyph the apps use to mean "we noticed you" -->
+    <symbol id="heart" viewBox="0 0 200 180">
+      <path d="M 100 168
+               C 36 124, 8 92, 8 56
+               C 8 30, 28 10, 54 10
+               C 74 10, 92 22, 100 40
+               C 108 22, 126 10, 146 10
+               C 172 10, 192 30, 192 56
+               C 192 92, 164 124, 100 168 Z"
+            fill="#B8BCC8"/>
+    </symbol>
+
+    <!-- the phone-shaped clip -->
+    <clipPath id="phone">
+      <rect x="0" y="0" width="1080" height="1920" rx="96" ry="96"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#phone)">
+    <rect x="0" y="0" width="1080" height="1920" fill="url(#dim)"/>
+    <rect x="0" y="0" width="1080" height="1920" fill="url(#focus)"/>
+
+    <!-- ghosted echoes: prior versions of the same counter, drifting and fading. each one a self the platform measured and discarded -->
+    <g id="ghosts">
+      <!-- ghost 1: up-left, higher count, almost gone -->
+      <g transform="translate(250,360)" opacity="0.10">
+        <use href="#heart" x="-60" y="-50" width="120" height="108"/>
+        <text x="0" y="130" text-anchor="middle"
+              font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+              font-size="64" font-weight="700" fill="#B8BCC8">1,402</text>
+        <rect x="-90" y="150" width="180" height="2" fill="#C6CCDB"/>
+      </g>
+      <!-- ghost 2: up-right -->
+      <g transform="translate(830,300)" opacity="0.12">
+        <use href="#heart" x="-48" y="-40" width="96" height="86"/>
+        <text x="0" y="104" text-anchor="middle"
+              font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+              font-size="52" font-weight="700" fill="#B8BCC8">886</text>
+        <rect x="-70" y="120" width="140" height="2" fill="#C6CCDB"/>
+      </g>
+      <!-- ghost 3: left-mid -->
+      <g transform="translate(190,1180)" opacity="0.13">
+        <use href="#heart" x="-54" y="-46" width="108" height="97"/>
+        <text x="0" y="118" text-anchor="middle"
+              font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+              font-size="58" font-weight="700" fill="#B8BCC8">512</text>
+        <rect x="-80" y="138" width="160" height="2" fill="#C6CCDB"/>
+      </g>
+      <!-- ghost 4: right-mid -->
+      <g transform="translate(890,1240)" opacity="0.11">
+        <use href="#heart" x="-50" y="-42" width="100" height="90"/>
+        <text x="0" y="110" text-anchor="middle"
+              font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+              font-size="54" font-weight="700" fill="#B8BCC8">73</text>
+        <rect x="-72" y="128" width="144" height="2" fill="#C6CCDB"/>
+      </g>
+      <!-- ghost 5: lower-left, lowest count, nearest gone -->
+      <g transform="translate(300,1620)" opacity="0.08">
+        <use href="#heart" x="-44" y="-38" width="88" height="79"/>
+        <text x="0" y="98" text-anchor="middle"
+              font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+              font-size="48" font-weight="700" fill="#B8BCC8">12</text>
+        <rect x="-64" y="114" width="128" height="2" fill="#C6CCDB"/>
+      </g>
+      <!-- ghost 6: lower-right -->
+      <g transform="translate(780,1660)" opacity="0.09">
+        <use href="#heart" x="-46" y="-40" width="92" height="83"/>
+        <text x="0" y="102" text-anchor="middle"
+              font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+              font-size="50" font-weight="700" fill="#B8BCC8">4</text>
+        <rect x="-66" y="120" width="132" height="2" fill="#C6CCDB"/>
+      </g>
+    </g>
+
+    <!-- the one counter that still has weight: a modest, very human 247 -->
+    <g id="now" transform="translate(540,960)">
+      <!-- heart -->
+      <use href="#heart" x="-110" y="-150" width="220" height="198"/>
+      <!-- the single dying red pixel: the last trace of the machine that once cared, mechanically, whether you existed -->
+      <rect x="-3" y="-78" width="6" height="6" fill="#FF3B30" opacity="0.85"/>
+      <!-- the number -->
+      <text x="0" y="120" text-anchor="middle"
+            font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+            font-size="148" font-weight="700" fill="#3A3F4B" letter-spacing="2">247</text>
+      <!-- the thin underline: the whole grammar of "you are seen" -->
+      <rect x="-130" y="160" width="260" height="3" rx="1.5" fill="#A8AEBE"/>
+      <!-- the quiet label below, the platform's small courtesy -->
+      <text x="0" y="210" text-anchor="middle"
+            font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+            font-size="24" letter-spacing="4" fill="#8A91A2">ENGAGEMENT</text>
+    </g>
+
+    <!-- caption in the work -->
+    <text x="540" y="1820" text-anchor="middle"
+          font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+          font-size="26" letter-spacing="3"
+          fill="#3A3F4B" fill-opacity="0.7">
+      the number does not remember you
+    </text>
+  </g>
+
+  <!-- device rim -->
+  <rect x="2" y="2" width="1076" height="1916" rx="94" ry="94"
+        fill="none" stroke="#9AA0AE" stroke-opacity="0.4" stroke-width="4"/>
+</svg>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <title>the infinite scroll — unfollow I</title>
+  <desc>A phone-shaped panel. A feed of post-cards falls through it and out the bottom, growing smaller and more transparent as they recede. Dawn peach bleeds into surveillance blue. One notification-red dot marks a distant card the eye is trained to chase.</desc>
+
+  <defs>
+    <!-- the day spent staring: dawn peach at top, surveillance blue at bottom -->
+    <linearGradient id="day" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#F6C9A0"/>
+      <stop offset="0.18" stop-color="#E89E8C"/>
+      <stop offset="0.42" stop-color="#7C6E8E"/>
+      <stop offset="0.72" stop-color="#2E3E5C"/>
+      <stop offset="1"    stop-color="#0C1424"/>
+    </linearGradient>
+
+    <!-- soft vignette so the panel reads as a held device, not a poster -->
+    <radialGradient id="vignette" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1"    stop-color="#000000" stop-opacity="0.45"/>
+    </radialGradient>
+
+    <!-- a single reusable post-card: avatar, name, body block, image block -->
+    <symbol id="card" viewBox="0 0 600 460">
+      <!-- card surface, the friendly rounded white the apps use to seem harmless -->
+      <rect x="0" y="0" width="600" height="460" rx="28" ry="28" fill="#FFFFFF"/>
+      <!-- header: avatar -->
+      <circle cx="52" cy="52" r="26" fill="#D7DAE3"/>
+      <!-- header: name line -->
+      <rect x="92" y="40" width="190" height="16" rx="8" fill="#C6CCDB"/>
+      <rect x="92" y="64" width="120" height="11" rx="5.5" fill="#D7DAE3"/>
+      <!-- media block: where the image would be, kept as a calm void -->
+      <rect x="24" y="104" width="552" height="300" rx="20" ry="20" fill="#E9ECF3"/>
+      <!-- caption line -->
+      <rect x="24" y="420" width="430" height="14" rx="7" fill="#D7DAE3"/>
+      <rect x="24" y="442" width="250" height="14" rx="7" fill="#D7DAE3"/>
+    </symbol>
+
+    <!-- the phone-shaped clip: everything outside this frame is the world the feed pretends isn't there -->
+    <clipPath id="phone">
+      <rect x="0" y="0" width="1080" height="1920" rx="96" ry="96"/>
+    </clipPath>
+  </defs>
+
+  <!-- the panel -->
+  <g clip-path="url(#phone)">
+    <rect x="0" y="0" width="1080" height="1920" fill="url(#day)"/>
+
+    <!-- the falling feed. cards descend, shrink, and fade toward a bottom that never arrives -->
+    <g id="feed">
+      <use href="#card" x="190" y=" 120" width="700" height="536" opacity="0.97"/>
+      <use href="#card" x="206" y=" 510" width="668" height="512" opacity="0.90"/>
+      <use href="#card" x="222" y=" 858" width="636" height="488" opacity="0.80"/>
+      <use href="#card" x="238" y="1170" width="604" height="464" opacity="0.68"/>
+      <use href="#card" x="254" y="1444" width="572" height="439" opacity="0.55"/>
+      <use href="#card" x="270" y="1684" width="540" height="415" opacity="0.43"/>
+      <use href="#card" x="286" y="1896" width="508" height="390" opacity="0.33"/>
+      <use href="#card" x="302" y="2082" width="476" height="365" opacity="0.24"/>
+      <use href="#card" x="318" y="2242" width="444" height="341" opacity="0.17"/>
+      <use href="#card" x="334" y="2380" width="412" height="316" opacity="0.11"/>
+      <use href="#card" x="350" y="2498" width="380" height="292" opacity="0.07"/>
+      <use href="#card" x="366" y="2598" width="348" height="267" opacity="0.04"/>
+    </g>
+
+    <!-- the wound: a single notification-red dot on a distant card, far down, where the eye is trained to chase it -->
+    <circle cx="540" cy="1840" r="11" fill="#FF3B30" opacity="0.55"/>
+
+    <!-- the thumb axis: the only fixed point in the descent, where the hand meets the glass -->
+    <line x1="540" y1="0" x2="540" y2="1920"
+          stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="2"/>
+
+    <!-- the top gloss of the UI, the calm chrome that makes the trap feel frictionless -->
+    <rect x="0" y="0" width="1080" height="120" fill="#FFFFFF" opacity="0.10"/>
+    <rect x="470" y="54" width="140" height="22" rx="11" fill="#FFFFFF" opacity="0.55"/>
+
+    <!-- vignette: this is a held thing, a small bright rectangle in a dim room -->
+    <rect x="0" y="0" width="1080" height="1920" fill="url(#vignette)"/>
+  </g>
+
+  <!-- the device frame: a thin rim, because the work is about the container as much as the content -->
+  <rect x="2" y="2" width="1076" height="1916" rx="94" ry="94"
+        fill="none" stroke="#0C1424" stroke-opacity="0.35" stroke-width="4"/>
+
+  <!-- the caption lives in the work, not beside it -->
+  <text x="540" y="1862" text-anchor="middle"
+        font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+        font-size="26" letter-spacing="3"
+        fill="#FFFFFF" fill-opacity="0.7">
+    there is no bottom
+  </text>
+</svg>
