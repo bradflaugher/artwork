@@ -30,6 +30,7 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [the-dictionary-argues-with-its-reader.md](the-dictionary-argues-with-its-reader.md)
 - [a-house-that-eats-its-own-doors.md](a-house-that-eats-its-own-doors.md)
 - [the-rain-reverses.md](the-rain-reverses.md)
+- [the-thunder-arrives-after-the-fact.md](the-thunder-arrives-after-the-fact.md)
 - [milk-for-the-architecture.md](milk-for-the-architecture.md)
 - [the-bus-stop-inside-the-bus.md](the-bus-stop-inside-the-bus.md)
 - [what-the-elevator-remembers.md](what-the-elevator-remembers.md)

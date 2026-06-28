@@ -62,15 +62,17 @@ A home for **artwork** — including visual pieces, manifestos, conceptual serie
 
 ### Loop notes (agent memory)
 - **No build or test suite.** Verification is manual curation: `# Title`, stanza body, trailing `> Epigraph:` or `> Gloss:` blockquote, curator filename, index link, anthology voice (strange, not twee).
-- **Poem count:** 28 poems (Batch 1: 12, Batch 2: 8, Batch 3: 8). Bump the count in `README.md` "Now reading" when adding a poem; add one epigraph spotlight line for the new piece.
-- **Batch fit:** Geography, landscape, and celestial themes (mountains, trees, stars, wind, weather, rooms) default to **Batch 1 — surreal / liminal** unless the piece is primarily a form, inventory, or procedure — then use Batch 2 or 3.
+- **Poem count:** 29 poems (Batch 1: 13, Batch 2: 8, Batch 3: 8). Bump the count in `README.md` "Now reading" when adding a poem; add one epigraph spotlight line for the new piece.
+- **Batch fit:** Geography, landscape, and celestial themes (mountains, trees, stars, wind, thunder, rain, weather, rooms) default to **Batch 1 — surreal / liminal** unless the piece is primarily a form, inventory, or procedure — then use Batch 2 or 3. Bureaucratic surrealism in the poem body still belongs in Batch 1 when the strangeness is image-first, not form-first.
 - **Authoritative state:** `poems/index.md` is the anthology table of contents. Root-level planning files (e.g. `fix_plan.md`) may be stale; trust the index and working tree over out-of-date plans.
 - **Do not commit** iteration scratch files such as `fix_plan.md`.
 - **Loop iterations:** Before writing, grep `poems/index.md` and check recent commits — if the mission poem is already linked and spotlighted in `README.md`, skip re-implementation; Ship only persists memory and opens the PR.
 - **fix_plan.md workflow:** When all tasks are checked and no `- [ ]` lines remain, the middle-manager loop must append new actionable `- [ ] task` lines before execute/verify loops can proceed. A plan with only `[x]` items stalls the pipeline.
 - **Ship verification:** After a themed poem ships, `rg -i <theme> poems/` should hit the poem body and `poems/index.md`; README epigraph spotlight is optional but expected for new pieces.
 - **Wind mission (loop 1):** Complete. `the-wind-returns-things-to-the-wrong-sky.md` — Batch 1, courier/misdelivery surrealism (wind returns things to the wrong sky). Pairs thematically with `the-rain-reverses.md` (weather that leaves instead of arrives).
+- **Thunder mission (loop 1):** Complete. `the-thunder-arrives-after-the-fact.md` — Batch 1, delayed-causality / bureaucratic weather surrealism (thunder files late after lightning). Pairs with `the-rain-reverses.md` and `the-wind-returns-things-to-the-wrong-sky.md` as a weather trilogy.
 - **Rebase gotcha:** `mm/loop-1` on origin may be ahead of local `main`; rebase onto `origin/mm/loop-1` before push (never force-push). Resolve index/README conflicts by keeping all batch links and bumping poem count.
+- **Middle-manager branches.** Loop work ships on `mm/loop-N` branches; commit message format: `middle-manager: <mission summary>` (≤72 chars).
 
 ### Verification (no build system)
 There is no test suite. Before committing a new poem, run structural checks:
