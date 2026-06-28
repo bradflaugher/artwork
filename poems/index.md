@@ -39,6 +39,7 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [the-mountain-remembers-your-name-backwards.md](the-mountain-remembers-your-name-backwards.md)
 - [the-stars-keep-a-separate-calendar.md](the-stars-keep-a-separate-calendar.md)
 - [the-wind-returns-things-to-the-wrong-sky.md](the-wind-returns-things-to-the-wrong-sky.md)
+- [the-cloud-files-a-complaint.md](the-cloud-files-a-complaint.md)
 
 ### Batch 2 — constraint / formal
 - [sonnet-with-all-its-windows-broken.md](sonnet-with-all-its-windows-broken.md)
