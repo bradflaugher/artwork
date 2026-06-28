@@ -62,7 +62,7 @@ A home for **artwork** — including visual pieces, manifestos, conceptual serie
 
 ### Loop notes (agent memory)
 - **No build or test suite.** Verification is manual curation: `# Title`, stanza body, trailing `> Epigraph:` or `> Gloss:` blockquote, curator filename, index link, anthology voice (strange, not twee).
-- **Poem count:** 26 poems as of loop 2 (Batch 1: 10, Batch 2: 8, Batch 3: 8). Bump the count in `README.md` "Now reading" when adding a poem; add one epigraph spotlight line for the new piece.
+- **Poem count:** 27 poems as of loop 4 (Batch 1: 11, Batch 2: 8, Batch 3: 8). Bump the count in `README.md` "Now reading" when adding a poem; add one epigraph spotlight line for the new piece.
 - **Batch fit:** Geography and landscape themes (mountains, trees, weather, rooms) default to **Batch 1 — surreal / liminal** unless the piece is primarily a form, inventory, or procedure — then use Batch 2 or 3.
 - **Authoritative state:** `poems/index.md` is the anthology table of contents. Root-level planning files (e.g. `fix_plan.md`) may be stale; trust the index and working tree over out-of-date plans.
 - **Do not commit** iteration scratch files such as `fix_plan.md`.
@@ -70,5 +70,7 @@ A home for **artwork** — including visual pieces, manifestos, conceptual serie
 - **fix_plan.md workflow:** When all tasks are checked and no `- [ ]` lines remain, the middle-manager loop must append new actionable `- [ ] task` lines before execute/verify loops can proceed. A plan with only `[x]` items stalls the pipeline.
 - **Ship verification:** After a themed poem ships, `rg -i <theme> poems/` should hit the poem body and `poems/index.md`; README epigraph spotlight is optional but expected for new pieces.
 - **Mountain mission (loop 2):** Complete. `the-mountain-remembers-your-name-backwards.md` — Batch 1, bureaucratic surrealism (ledger, APPROVED stamp, inverted ascent). No second mountain piece unless the human requests it.
-- **Branch sync (loop 1):** Complete. `mm/loop-1` fast-forwarded to `origin/mm/loop-2` (e9775d3); tree and mountain trilogy peers on disk; Batch 1 lists 10 entries. Ocean piece not yet written (`rg -i 'ocean|sea|tide' poems/` returns nothing except unrelated form checkbox). Next iteration: ship ocean trilogy #3.
+- **Branch sync (loop 1):** Complete. `mm/loop-1` fast-forwarded to `origin/mm/loop-2` (e9775d3); geography trilogy peers (trees, mountain, ocean) on disk; Batch 1 lists 11 entries.
 - **Tree mission (loop 1):** Complete. `the-trees-grew-downward-into-last-year.md` — Batch 1, bureaucratic surrealism (inverted growth, complaints filed, rent metaphors). Trilogy voice: `the-<noun>-<verb>-<strange-thing>.md` filenames, epigraph as compressed thesis.
+- **Ocean mission (loop 2):** Complete. `the-tide-submits-a-correction.md` — Batch 1, bureaucratic surrealism (inverted tides, memos in bottles, counter-memos, back-dated wave inadmissible). Poem count 27. Geography trilogy complete (trees → mountain → ocean).
+- **Ocean ship (loop 4):** Shipped on `mm/loop-4`. Skip guard: `grep -riE 'ocean|sea|tide' poems/` and `grep 'the-tide-submits-a-correction' poems/index.md README.md`. Post-ship: Batch 1 = 11 entries; no second ocean piece unless the human requests it.
