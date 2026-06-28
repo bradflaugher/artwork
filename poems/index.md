@@ -34,6 +34,7 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [the-bus-stop-inside-the-bus.md](the-bus-stop-inside-the-bus.md)
 - [what-the-elevator-remembers.md](what-the-elevator-remembers.md)
 - [the-town-with-no-tuesdays.md](the-town-with-no-tuesdays.md)
+- [the-trees-grew-downward-into-last-year.md](the-trees-grew-downward-into-last-year.md)
 
 ### Batch 2 — constraint / formal
 - [sonnet-with-all-its-windows-broken.md](sonnet-with-all-its-windows-broken.md)

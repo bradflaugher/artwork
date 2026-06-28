@@ -57,5 +57,10 @@ A home for **artwork** — including visual pieces, manifestos, conceptual serie
 2. Pick (or invent) a batch theme. Write poems that fit it.
 3. Create one `.md` file per poem under `poems/`, with title, body, and epigraph, following formatting conventions.
 4. Update `poems/index.md` with links to every new file.
-5. If the anthology warrants it, update `README.md`'s "Now reading" section.
+5. If the anthology warrants it, update `README.md`'s "Now reading" section — and bump the poem count there when it changes.
 6. Do not commit scratch files, build tooling, or unrelated refactors.
+
+### Verification & shipping
+- **No build or test suite.** A poem contribution is verified by manual curation review: title, body, epigraph blockquote, curator filename, index link, and anthology voice (strange, not twee).
+- **Batch defaults:** Nature or landscape subjects that need inverted logic (roots in attics, gravity reversed) fit **Batch 1 — surreal / liminal**. Bureaucratic tree paperwork fits Batch 2; procedural tree instructions fit Batch 3.
+- **Do not commit** iteration scratch files such as `fix_plan.md`.
