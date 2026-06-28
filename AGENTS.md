@@ -59,3 +59,9 @@ A home for **artwork** — including visual pieces, manifestos, conceptual serie
 4. Update `poems/index.md` with links to every new file.
 5. If the anthology warrants it, update `README.md`'s "Now reading" section.
 6. Do not commit scratch files, build tooling, or unrelated refactors.
+
+### Operational notes (middle-manager loop)
+- **No build or test suite.** Verification is curatorial: title (`#`), epigraph/gloss blockquote at file end, kebab-case filename, and a link in the correct `poems/index.md` batch.
+- **Batch placement:** Bureaucratic surrealism can land in Batch 1 when the image/scene carries the strangeness (e.g. fog as clerk); reserve Batch 2 for poems whose *form* is the constraint (sonnets, forms, inventories).
+- **README counts:** When adding a poem, bump the total in `README.md` "Now reading" (currently **25** poems: 9 / 8 / 8 across batches).
+- **Issue-driven branches:** Use `mm/issue-N` for scoped anthology work; link the issue in the PR body (`Closes #N` or `Fixes #N` only when the issue is fully satisfied).
