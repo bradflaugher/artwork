@@ -44,6 +44,7 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [the-thunder-arrives-after-the-fact.md](the-thunder-arrives-after-the-fact.md)
 - [the-wind-returns-things-to-the-wrong-sky.md](the-wind-returns-things-to-the-wrong-sky.md)
 - [the-tide-submits-a-correction.md](the-tide-submits-a-correction.md)
+- [the-dog-that-was-also-a-threshold.md](the-dog-that-was-also-a-threshold.md)
 
 ### Batch 2 — constraint / formal
 - [sonnet-with-all-its-windows-broken.md](sonnet-with-all-its-windows-broken.md)
