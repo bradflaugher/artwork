@@ -67,6 +67,8 @@ A home for **artwork** — including visual pieces, manifestos, conceptual serie
 
 ### Ship / loop notes
 - **No build, test, or lint commands.** Verification is curatorial: title heading (`#`), epigraph/gloss blockquote at file end (e.g. `> Epigraph:` or `> Gloss:`), `kebab-case-title.md` filename, link in the correct `poems/index.md` batch, and README count in sync.
+- **Poem Count Verification:** Run `ls poems/ | grep -v index.md | wc -l` in bash to confirm the count of poems matches the number in the `README.md` "Now reading" section.
 - **README counts:** When adding a poem, bump the total count in `README.md`'s "Now reading" section.
 - **Issue-driven branches:** Use `mm/issue-N` for scoped anthology work. Link the PR to the issue with `gh pr create` / `Closes #N` or `Fixes #N` when appropriate.
 - **Commit guidelines:** Commit subjects use the `middle-manager:` prefix; keep the subject line ≤ 72 characters.
+
