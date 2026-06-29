@@ -23,7 +23,7 @@ Read the [manifesto](unfollow/manifesto.md) and view the full [triptych](unfollo
 
 ## Now reading
 
-The repo currently houses **Strange Poems**, a growing anthology of text-as-artwork — wrong grammar on purpose, impossible objects, bureaucratic surrealism, procedural nonsense, and constraint forms that feel broken. Thirty-six poems across three flavors of strangeness:
+The repo currently houses **Strange Poems**, a growing anthology of text-as-artwork — wrong grammar on purpose, impossible objects, bureaucratic surrealism, procedural nonsense, and constraint forms that feel broken. Thirty-seven poems across three flavors of strangeness:
 
 - **Surreal / liminal** — impossible geography, dream-logic syntax, objects that shouldn't speak.
   - *Every room I've left has a second room I didn't.* — from [the-hallway-behind-the-hallway](poems/the-hallway-behind-the-hallway.md)
@@ -38,6 +38,7 @@ The repo currently houses **Strange Poems**, a growing anthology of text-as-artw
   - *Sound travels slower than responsibility, which is itself slower than regret.* — from [the-thunder-arrives-after-the-fact](poems/the-thunder-arrives-after-the-fact.md)
   - *The wind is a courier that has lost the address but not the parcel.* — from [the-wind-returns-things-to-the-wrong-sky](poems/the-wind-returns-things-to-the-wrong-sky.md)
   - *A tide is a schedule the ocean keeps meaning to cancel.* — from [the-tide-submits-a-correction](poems/the-tide-submits-a-correction.md)
+  - *A cat is a piece of weather that files a correction against your assumptions.* — from [the-cat-returns-itself-to-the-lost-and-found](poems/the-cat-returns-itself-to-the-lost-and-found.md)
 
 - **Constraint / formal** — broken sonnets, bureaucratic forms as verse, numbered inventories, legalistic odes.
   - *A feeling is a form you fill out about yourself, to yourself, in a font you did not choose.* — from [form-7b-notice-of-feeling](poems/form-7b-notice-of-feeling.md)
