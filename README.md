@@ -1,5 +1,5 @@
 # artwork
-a place for artwork
+*Pretty is fine; pretty and dangerous is better.*
 
 A curated gallery of artwork, including subversive visual pieces and a growing collection of strange poetry. Pretty is fine; pretty *and* dangerous is better. See [`AGENTS.md`](AGENTS.md) for the rules of the house.
 
