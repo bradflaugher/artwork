@@ -55,6 +55,8 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [minutes-of-a-meeting-that-never-adjourned.md](minutes-of-a-meeting-that-never-adjourned.md)
 - [villanelle-for-a-stuck-turnstile.md](villanelle-for-a-stuck-turnstile.md)
 - [schedule-c-attachment-of-regrets.md](schedule-c-attachment-of-regrets.md)
+- [the-calendar-demands-a-receipt.md](the-calendar-demands-a-receipt.md)
+- [the-reviewer-requests-changes.md](the-reviewer-requests-changes.md)
 
 ### Batch 3 — absurd / procedural
 - [recipe-for-a-tuesday.md](recipe-for-a-tuesday.md)
@@ -67,6 +69,8 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [protocol-for-addressing-the-moon.md](protocol-for-addressing-the-moon.md)
 - [the-android-rehearses-a-wave.md](the-android-rehearses-a-wave.md)
 - [how-to-reboot-a-shadow.md](how-to-reboot-a-shadow.md)
+- [both-branches-wrote-the-same-line.md](both-branches-wrote-the-same-line.md)
+- [retry-until-green.md](retry-until-green.md)
 - [the-middle-manager.md](the-middle-manager.md)
 
 ---
