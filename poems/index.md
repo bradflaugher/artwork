@@ -55,6 +55,7 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [minutes-of-a-meeting-that-never-adjourned.md](minutes-of-a-meeting-that-never-adjourned.md)
 - [villanelle-for-a-stuck-turnstile.md](villanelle-for-a-stuck-turnstile.md)
 - [schedule-c-attachment-of-regrets.md](schedule-c-attachment-of-regrets.md)
+- [the-calendar-demands-a-receipt.md](the-calendar-demands-a-receipt.md)
 
 ### Batch 3 — absurd / procedural
 - [recipe-for-a-tuesday.md](recipe-for-a-tuesday.md)
