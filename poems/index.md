@@ -74,6 +74,7 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [the-middle-manager.md](the-middle-manager.md)
 - [chain-of-command.md](chain-of-command.md)
 - [delegation.md](delegation.md)
+- [handoff.md](handoff.md)
 - [the-vigil-of-the-yellow-dot.md](the-vigil-of-the-yellow-dot.md)
 
 ---
