@@ -71,6 +71,7 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [how-to-reboot-a-shadow.md](how-to-reboot-a-shadow.md)
 - [both-branches-wrote-the-same-line.md](both-branches-wrote-the-same-line.md)
 - [retry-until-green.md](retry-until-green.md)
+- [the-middle-manager.md](the-middle-manager.md)
 
 ---
 
