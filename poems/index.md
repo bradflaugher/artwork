@@ -73,6 +73,7 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [retry-until-green.md](retry-until-green.md)
 - [the-middle-manager.md](the-middle-manager.md)
 - [chain-of-command.md](chain-of-command.md)
+- [delegation.md](delegation.md)
 - [the-vigil-of-the-yellow-dot.md](the-vigil-of-the-yellow-dot.md)
 
 ---
