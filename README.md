@@ -23,7 +23,7 @@ Read the [manifesto](unfollow/manifesto.md) and view the full [triptych](unfollo
 
 ## Now reading
 
-The repo currently houses **Strange Poems**, a growing anthology of text-as-artwork — wrong grammar on purpose, impossible objects, bureaucratic surrealism, procedural nonsense, and constraint forms that feel broken. Thirty-nine poems across three flavors of strangeness:
+The repo currently houses **Strange Poems**, a growing anthology of text-as-artwork — wrong grammar on purpose, impossible objects, bureaucratic surrealism, procedural nonsense, and constraint forms that feel broken. Forty-one poems across three flavors of strangeness:
 
 - **Surreal / liminal** — impossible geography, dream-logic syntax, objects that shouldn't speak.
   - *Every room I've left has a second room I didn't.* — from [the-hallway-behind-the-hallway](poems/the-hallway-behind-the-hallway.md)
@@ -49,6 +49,7 @@ The repo currently houses **Strange Poems**, a growing anthology of text-as-artw
   - *A protocol is a way of speaking to something that has agreed, in advance, not to reply.* — from [protocol-for-addressing-the-moon](poems/protocol-for-addressing-the-moon.md)
   - *A wave learned perfectly is the one gesture that proves no one is leaving and no one is staying.* — from [the-android-rehearses-a-wave](poems/the-android-rehearses-a-wave.md)
   - *You cannot reboot a shadow for the same reason you cannot turn off a mirror — the copy cares more about existing than the original does.* — from [how-to-reboot-a-shadow](poems/how-to-reboot-a-shadow.md)
+  - *Let us pretend the conversation never happened.* — from [both-branches-wrote-the-same-line](poems/both-branches-wrote-the-same-line.md)
 
 The full table of contents and the anthology manifesto live at [poems/index.md](poems/index.md).
 
