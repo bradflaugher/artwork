@@ -72,6 +72,7 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [both-branches-wrote-the-same-line.md](both-branches-wrote-the-same-line.md)
 - [retry-until-green.md](retry-until-green.md)
 - [the-middle-manager.md](the-middle-manager.md)
+- [tier-zero.md](tier-zero.md)
 - [chain-of-command.md](chain-of-command.md)
 - [delegation.md](delegation.md)
 - [handoff.md](handoff.md)
