@@ -70,6 +70,7 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [the-android-rehearses-a-wave.md](the-android-rehearses-a-wave.md)
 - [how-to-reboot-a-shadow.md](how-to-reboot-a-shadow.md)
 - [both-branches-wrote-the-same-line.md](both-branches-wrote-the-same-line.md)
+- [retry-until-green.md](retry-until-green.md)
 
 ---
 
