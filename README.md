@@ -55,7 +55,7 @@ The repo currently houses **Strange Poems**, a growing anthology of text-as-artw
   - *The checkmark does not mean the work is correct. It means the waiting has been notarized.* — from [the-vigil-of-the-yellow-dot](poems/the-vigil-of-the-yellow-dot.md)
   - *A manager is a man who has found a way to be present at the making of every poem without ever being guilty of one.* — from [the-middle-manager](poems/the-middle-manager.md)
   - *Each ticket that remains open forever becomes a prayer the system never returns.* — from [the-backlog-approaches-infinity](poems/the-backlog-approaches-infinity.md)
-  - *A green checkmark is a brief, automated absolution — a notary stamp on the waiting not the work.* — from [the-machines-absolve](poems/the-machines-absolve.md)
+  - *Relief is minted, not earned — the machine absolves you of an error it declines to name.* — from [the-machines-absolve](poems/the-machines-absolve.md)
 
 The full table of contents and the anthology manifesto live at [poems/index.md](poems/index.md).
 
