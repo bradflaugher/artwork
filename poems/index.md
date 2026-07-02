@@ -59,6 +59,10 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [the-reviewer-requests-changes.md](the-reviewer-requests-changes.md)
 - [fast-forward.md](fast-forward.md)
 - [escalation.md](escalation.md)
+- [tier-zero.md](tier-zero.md)
+- [chain-of-command.md](chain-of-command.md)
+- [delegation.md](delegation.md)
+- [handoff.md](handoff.md)
 
 ### Batch 3 — absurd / procedural
 - [recipe-for-a-tuesday.md](recipe-for-a-tuesday.md)
@@ -74,10 +78,6 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [both-branches-wrote-the-same-line.md](both-branches-wrote-the-same-line.md)
 - [retry-until-green.md](retry-until-green.md)
 - [the-middle-manager.md](the-middle-manager.md)
-- [tier-zero.md](tier-zero.md)
-- [chain-of-command.md](chain-of-command.md)
-- [delegation.md](delegation.md)
-- [handoff.md](handoff.md)
 - [the-vigil-of-the-yellow-dot.md](the-vigil-of-the-yellow-dot.md)
 - [the-backlog-approaches-infinity.md](the-backlog-approaches-infinity.md)
 - [the-machines-absolve.md](the-machines-absolve.md)
