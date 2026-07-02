@@ -13,4 +13,4 @@ Operational briefings, briefing briefings, B.
 Observing updates, distributing, U.
 Finalizing protocol, pending, P.
 
-> Epigraph: *The middle-manager is a man who has found a way to be present at the making of every poem without ever being guilty of one.*
+> Epigraph: *This handoff requires proof: each line carries left-edge origin and right-edge receipt.*
