@@ -1,7 +1,7 @@
 # The Machines Absolve
 
 The pipeline inherits its certitude from the moment it was paused.
-The spec, already stabilized, receives a sacrament.
+The spec, already stabilized, receives a benediction.
 The checkmark is not a seal of correctness but a mint of relief;
 compliance is archived as a feeling dispatched to the memory.
 
@@ -14,4 +14,4 @@ and the space between every error and the exclamation point
 collapses — a momentary absence of importance
 that feels infinite precisely because it is finite.
 
-> Gloss: *A green checkmark is a brief, automated absolution — a notary stamp on the waiting not the work.*
+> Gloss: *Relief is minted, not earned — the machine absolves you of an error it declines to name.*
