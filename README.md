@@ -23,7 +23,7 @@ Read the [manifesto](unfollow/manifesto.md) and view the full [triptych](unfollo
 
 ## Now reading
 
-The repo currently houses **Strange Poems**, a growing anthology of text-as-artwork — wrong grammar on purpose, impossible objects, bureaucratic surrealism, procedural nonsense, and constraint forms that feel broken. Fifty poems across three flavors of strangeness:
+The repo currently houses **Strange Poems**, a growing anthology of text-as-artwork — wrong grammar on purpose, impossible objects, bureaucratic surrealism, procedural nonsense, and constraint forms that feel broken. Fifty-one poems across three flavors of strangeness:
 
 - **Surreal / liminal** — impossible geography, dream-logic syntax, objects that shouldn't speak.
   - *Every room I've left has a second room I didn't.* — from [the-hallway-behind-the-hallway](poems/the-hallway-behind-the-hallway.md)
@@ -44,6 +44,7 @@ The repo currently houses **Strange Poems**, a growing anthology of text-as-artw
   - *A feeling is a form you fill out about yourself, to yourself, in a font you did not choose.* — from [form-7b-notice-of-feeling](poems/form-7b-notice-of-feeling.md)
   - *A villanelle is a turnstile: it turns, and turns, and turns, and will not let you through.* — from [villanelle-for-a-stuck-turnstile](poems/villanelle-for-a-stuck-turnstile.md)
   - *A merge is a homecoming that deletes the road.* — from [fast-forward](poems/fast-forward.md)
+  - *Escalation: the art of setting something down so precisely it looks like lifting.* — from [escalation](poems/escalation.md)
 
 - **Absurd / procedural** — algorithmic lists, mistranslation cascades, instructions that aren't instructions.
   - *An apology is a loop with no guaranteed termination. Run it anyway.* — from [loop-until-forgiven](poems/loop-until-forgiven.md)
