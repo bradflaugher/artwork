@@ -77,6 +77,7 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [delegation.md](delegation.md)
 - [handoff.md](handoff.md)
 - [the-vigil-of-the-yellow-dot.md](the-vigil-of-the-yellow-dot.md)
+- [the-backlog-approaches-infinity.md](the-backlog-approaches-infinity.md)
 
 ---
 
