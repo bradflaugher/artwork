@@ -72,4 +72,3 @@ NOTE: the shadow is also less interesting
 **The shadow refuses to be rebooted.** File a report with no one. The procedure for filing a report is: write the report, submit it, receive no reply. This is not a failure of the procedure. The procedure worked exactly as designed. The procedure is the point.
 
 > Epigraph: *You cannot reboot a shadow for the same reason you cannot turn off a mirror — the copy cares more about existing than the original does.*
-
