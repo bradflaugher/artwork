@@ -57,6 +57,7 @@ Algorithmic lists, mistranslation cascades, instructions that aren't instruction
 - [schedule-c-attachment-of-regrets.md](schedule-c-attachment-of-regrets.md)
 - [the-calendar-demands-a-receipt.md](the-calendar-demands-a-receipt.md)
 - [the-reviewer-requests-changes.md](the-reviewer-requests-changes.md)
+- [fast-forward.md](fast-forward.md)
 
 ### Batch 3 — absurd / procedural
 - [recipe-for-a-tuesday.md](recipe-for-a-tuesday.md)
